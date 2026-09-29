@@ -5,6 +5,7 @@ registerBlockVariation("core/query", {
   title: "FSE — Articles",
   description: "Articles configurables avec les contrôles éditoriaux essentiels.",
   icon: "admin-post",
+  scope: ["inserter"],
   isActive: (blockAttributes) => blockAttributes.namespace === "fse-posts",
   attributes: {
     namespace: "fse-posts",
@@ -26,13 +27,7 @@ registerBlockVariation("core/query", {
       excludeCurrent: false
     }
   },
-  allowedControls: [
-    "order",
-    "sticky",
-    "taxQuery",
-    "author",
-    "search"
-  ]
+  allowedControls: ["order", "sticky", "taxQuery", "author", "search"]
 });
 
 registerBlockVariation("core/query", {
@@ -40,6 +35,7 @@ registerBlockVariation("core/query", {
   title: "FSE — Pages",
   description: "Pages configurables avec filtrage par parent.",
   icon: "admin-page",
+  scope: ["inserter"],
   isActive: (blockAttributes) => blockAttributes.namespace === "fse-pages",
   attributes: {
     namespace: "fse-pages",
@@ -61,11 +57,7 @@ registerBlockVariation("core/query", {
       excludeCurrent: false
     }
   },
-  allowedControls: [
-    "order",
-    "parents",
-    "search"
-  ]
+  allowedControls: ["order", "parents", "search"]
 });
 
 registerBlockVariation("core/query", {
@@ -73,6 +65,7 @@ registerBlockVariation("core/query", {
   title: "FSE — Articles similaires",
   description: "Articles excluant automatiquement l’article courant.",
   icon: "admin-post",
+  scope: ["inserter"],
   isActive: (blockAttributes) => blockAttributes.namespace === "fse-related-posts",
   attributes: {
     namespace: "fse-related-posts",
@@ -91,12 +84,8 @@ registerBlockVariation("core/query", {
       taxQuery: null,
       parents: [],
       format: [],
-      excludeCurrent: false
+      excludeCurrent: true
     }
   },
-  allowedControls: [
-    "order",
-    "taxQuery",
-    "author"
-  ]
+  allowedControls: ["order", "taxQuery", "author"]
 });
