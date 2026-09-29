@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Recent pages
+ * Title: Pages — Pages récentes
  * Slug: fse/query-recent-pages
  * Categories: fse-queries
+ * Description: Affiche les pages les plus récemment publiées ou modifiées.
  * Inserter: true
  *
  * @package FSE
