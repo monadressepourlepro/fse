@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Child pages
+ * Title: Pages — Pages enfants
  * Slug: fse/query-child-pages
  * Categories: fse-queries
+ * Description: Affiche les pages enfants rattachées à une page parente.
  * Inserter: true
  *
  * @package FSE
