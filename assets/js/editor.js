@@ -3,28 +3,23 @@ const { registerBlockVariation } = window.wp.blocks;
 registerBlockVariation("core/query", {
   name: "fse-posts",
   title: "FSE — Articles",
-  description: "Articles configurables avec les contrôles éditoriaux essentiels.",
+  description: "Articles configurables dans le cadre du système FSE.",
   icon: "admin-post",
   scope: ["inserter"],
-  isActive: (blockAttributes) => blockAttributes.namespace === "fse-posts",
+  isActive: (attributes) => attributes.namespace === "fse-posts",
   attributes: {
     namespace: "fse-posts",
     query: {
       perPage: 3,
-      pages: 0,
-      offset: 0,
       postType: "post",
       order: "desc",
       orderBy: "date",
-      author: "",
-      search: "",
-      exclude: [],
       sticky: "ignore",
       inherit: false,
+      exclude: [],
       taxQuery: null,
-      parents: [],
-      format: [],
-      excludeCurrent: false
+      author: "",
+      search: ""
     }
   },
   allowedControls: ["order", "sticky", "taxQuery", "author", "search"]
@@ -33,28 +28,21 @@ registerBlockVariation("core/query", {
 registerBlockVariation("core/query", {
   name: "fse-pages",
   title: "FSE — Pages",
-  description: "Pages configurables avec filtrage par parent.",
+  description: "Pages configurables dans le cadre du système FSE.",
   icon: "admin-page",
   scope: ["inserter"],
-  isActive: (blockAttributes) => blockAttributes.namespace === "fse-pages",
+  isActive: (attributes) => attributes.namespace === "fse-pages",
   attributes: {
     namespace: "fse-pages",
     query: {
       perPage: 6,
-      pages: 0,
-      offset: 0,
       postType: "page",
       order: "asc",
       orderBy: "menu_order",
-      author: "",
-      search: "",
-      exclude: [],
-      sticky: "",
       inherit: false,
-      taxQuery: null,
+      exclude: [],
       parents: [],
-      format: [],
-      excludeCurrent: false
+      search: ""
     }
   },
   allowedControls: ["order", "parents", "search"]
@@ -63,28 +51,22 @@ registerBlockVariation("core/query", {
 registerBlockVariation("core/query", {
   name: "fse-related-posts",
   title: "FSE — Articles similaires",
-  description: "Articles excluant automatiquement l’article courant.",
+  description: "Articles similaires avec exclusion de l’article courant.",
   icon: "admin-post",
   scope: ["inserter"],
-  isActive: (blockAttributes) => blockAttributes.namespace === "fse-related-posts",
+  isActive: (attributes) => attributes.namespace === "fse-related-posts",
   attributes: {
     namespace: "fse-related-posts",
     query: {
       perPage: 3,
-      pages: 0,
-      offset: 0,
       postType: "post",
       order: "desc",
       orderBy: "date",
-      author: "",
-      search: "",
-      exclude: [],
       sticky: "ignore",
       inherit: false,
+      exclude: [],
       taxQuery: null,
-      parents: [],
-      format: [],
-      excludeCurrent: true
+      author: ""
     }
   },
   allowedControls: ["order", "taxQuery", "author"]
