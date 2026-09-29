@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Random posts
+ * Title: Articles — Aléatoires
  * Slug: fse/query-random-posts
  * Categories: fse-queries
+ * Description: Affiche une sélection aléatoire d’articles.
  * Inserter: true
  *
  * @package FSE
