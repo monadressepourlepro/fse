@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Search results
+ * Title: Recherche — Résultats
  * Slug: fse/query-search-results
  * Categories: fse-queries
+ * Description: Affiche une boucle de résultats adaptée à une recherche.
  * Inserter: true
  *
  * @package FSE
