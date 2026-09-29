@@ -37,18 +37,18 @@
         { "slug": "xl", "size": "4rem", "name": "XL" },
         { "slug": "2xl", "size": "6rem", "name": "2XL" }
       ],
-      "units": [ "px", "rem", "%", "vw", "vh" ]
+      "units": ["px", "rem", "%", "vw", "vh"]
     },
     "typography": {
       "fluid": true,
       "fontFamilies": [
         {
-          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
           "slug": "primary",
           "name": "Primary"
         },
         {
-          "fontFamily": "Georgia, "Times New Roman", serif",
+          "fontFamily": "Georgia, \"Times New Roman\", serif",
           "slug": "secondary",
           "name": "Secondary"
         }
@@ -124,6 +124,6 @@
     { "name": "footer", "title": "Footer", "area": "footer" }
   ],
   "customTemplates": [
-    { "name": "blank", "title": "Blank", "postTypes": [ "page" ] }
+    { "name": "blank", "title": "Blank", "postTypes": ["page"] }
   ]
 }
