@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Latest posts
+ * Title: Articles — Derniers articles
  * Slug: fse/query-latest-posts
  * Categories: fse-queries
+ * Description: Affiche les articles les plus récents, triés du plus récent au plus ancien.
  * Inserter: true
  *
  * @package FSE
