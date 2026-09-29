@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Posts by tag
+ * Title: Articles — Par étiquette
  * Slug: fse/query-posts-by-tag
  * Categories: fse-queries
+ * Description: Affiche les articles associés à une ou plusieurs étiquettes.
  * Inserter: true
  *
  * @package FSE
