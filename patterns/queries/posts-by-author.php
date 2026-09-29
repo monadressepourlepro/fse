@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Posts by author
+ * Title: Articles — Par auteur
  * Slug: fse/query-posts-by-author
  * Categories: fse-queries
+ * Description: Affiche les articles publiés par un auteur sélectionné.
  * Inserter: true
  *
  * @package FSE
