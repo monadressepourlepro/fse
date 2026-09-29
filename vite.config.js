@@ -6,9 +6,12 @@ export default defineConfig({
     outDir: resolve(__dirname, "assets/dist"),
     emptyOutDir: true,
     rollupOptions: {
-      input: resolve(__dirname, "assets/js/main.js"),
+      input: {
+        main: resolve(__dirname, "assets/js/main.js"),
+        editor: resolve(__dirname, "assets/js/editor.js"),
+      },
       output: {
-        entryFileNames: "main.js",
+        entryFileNames: "[name].js",
         assetFileNames: (assetInfo) => {
           if (assetInfo.name?.endsWith(".css")) {
             return "main.css";
