@@ -28,5 +28,12 @@ function fse_register_pattern_categories(): void {
 			'label' => __( 'FSE — Content', 'fse' ),
 		)
 	);
+
+	register_block_pattern_category(
+		'fse-queries',
+		array(
+			'label' => __( 'FSE — Queries', 'fse' ),
+		)
+	);
 }
 add_action( 'init', 'fse_register_pattern_categories' );
