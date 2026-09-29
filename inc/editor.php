@@ -20,5 +20,15 @@ function fse_enqueue_editor_assets(): void {
 			$theme_version
 		);
 	}
+
+	if ( file_exists( $dist_path . '/editor.js' ) ) {
+		wp_enqueue_script(
+			'fse-editor',
+			$dist_uri . '/editor.js',
+			array( 'wp-blocks' ),
+			$theme_version,
+			true
+		);
+	}
 }
 add_action( 'enqueue_block_editor_assets', 'fse_enqueue_editor_assets' );
