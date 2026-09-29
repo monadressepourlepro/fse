@@ -8,7 +8,7 @@
  * @package FSE
  */
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","style":{"templateLock":"contentOnly","spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl","left":"var:preset|spacing|md","right":"var:preset|spacing|md"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-black-background-color has-white-color has-text-color has-background">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide">
