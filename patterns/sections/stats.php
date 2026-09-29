@@ -1,25 +1,29 @@
 <?php
 /**
- * Title: Stats
- * Slug: fse/stats
- * Categories: fse-content
+ * Title: Section — Stats
+ * Slug: fse/section-stats
+ * Categories: fse-sections
  * Inserter: true
  *
  * @package FSE
  */
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"gray-100","style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-gray-100-background-color has-background">
-	<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull">
+	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:columns -->
-		<div class="wp-block-columns">
-			<!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} --><h3 class="wp-block-heading has-text-align-center">15+</h3><!-- /wp:heading --><!-- wp:paragraph {"align":"center","fontSize":"small"} --><p class="has-text-align-center has-small-font-size">Années d’expérience</p><!-- /wp:paragraph --></div><!-- /wp:column -->
-			<!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} --><h3 class="wp-block-heading has-text-align-center">250</h3><!-- /wp:heading --><!-- wp:paragraph {"align":"center","fontSize":"small"} --><p class="has-text-align-center has-small-font-size">Projets réalisés</p><!-- /wp:paragraph --></div><!-- /wp:column -->
-			<!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} --><h3 class="wp-block-heading has-text-align-center">98 %</h3><!-- /wp:heading --><!-- wp:paragraph {"align":"center","fontSize":"small"} --><p class="has-text-align-center has-small-font-size">Clients satisfaits</p><!-- /wp:paragraph --></div><!-- /wp:column -->
-			<!-- wp:column --><div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} --><h3 class="wp-block-heading has-text-align-center">24 h</h3><!-- /wp:heading --><!-- wp:paragraph {"align":"center","fontSize":"small"} --><p class="has-text-align-center has-small-font-size">Délai de réponse</p><!-- /wp:paragraph --></div><!-- /wp:column -->
-		</div>
-		<!-- /wp:columns -->
+		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">100+</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Projets réalisés</p><!-- /wp:paragraph --></div>
+		<!-- /wp:group -->
+		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">15</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Années d'expérience</p><!-- /wp:paragraph --></div>
+		<!-- /wp:group -->
+		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">98%</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Clients satisfaits</p><!-- /wp:paragraph --></div>
+		<!-- /wp:group -->
+		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">24h</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Temps de réponse</p><!-- /wp:paragraph --></div>
+		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
 </div>
