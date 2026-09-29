@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Posts by date
+ * Title: Articles — Par date
  * Slug: fse/query-posts-by-date
  * Categories: fse-queries
+ * Description: Affiche les articles selon un ordre ou une période de publication.
  * Inserter: true
  *
  * @package FSE
