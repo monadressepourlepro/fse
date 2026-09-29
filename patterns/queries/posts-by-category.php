@@ -1,8 +1,9 @@
 <?php
 /**
- * Title: Query — Posts by category
+ * Title: Articles — Par catégorie
  * Slug: fse/query-posts-by-category
  * Categories: fse-queries
+ * Description: Affiche les articles appartenant à une catégorie sélectionnée.
  * Inserter: true
  *
  * @package FSE
