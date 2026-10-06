@@ -8,7 +8,7 @@
  * @package FSE
  */
 ?>
-<!-- wp:query {"query":{"perPage":4,"postType":"post","order":"desc","orderBy":"date","inherit":false},"displayLayout":{"type":"flex","columns":4}} -->
+<!-- wp:query {"align":"wide","query":{"perPage":4,"postType":"post","order":"desc","orderBy":"date","inherit":false},"displayLayout":{"type":"flex","columns":4}} -->
 <div class="wp-block-query">
 	<!-- wp:post-template -->
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
