@@ -23,6 +23,7 @@ const registerPostsView = ({ name, title, description, displayLayout, innerBlock
     isActive: (attributes) => attributes.namespace === name,
     attributes: {
       namespace: name,
+      align: "wide",
       query: fsePostsQuery,
       displayLayout
     },
